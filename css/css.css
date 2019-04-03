@@ -1,0 +1,30 @@
+body{
+    overflow-x: hidden;
+    background-color: white;
+}
+input{
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #6f0b82;
+    outline: none;
+}
+.header{
+            background-color: #6f0b82;
+            height:43px;
+            width: 100%
+        }
+.border{
+   border-color: #6f0b82 !important;
+} 
+h3,p{
+color: #6f0b82;   
+}    
+p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 425px) {
+    input{
+        width: 30%;
+    }
+ 
+}
